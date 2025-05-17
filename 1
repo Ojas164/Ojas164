@@ -1,1 +1,36 @@
+# print welcome banner
+import math
+welcome_banner = 'Welcome to the geometry assistant!'
+pi = 3.14
+print(welcome_banner)
+print("Let's calculate area of right triangle")
+leg1 = float(input("Leg1:"))
+leg2 = float(input("Leg2:"))
+triangle_area = (leg1 * leg2)/2
+print(f" Triangle area:{triangle_area}")
+print("let's find perimeter and area of square!")
+s = float(input("Length of side:"))
+square_perimeter = s * 4
+square_area = s*s
+print(f"Square perimeter: {square_perimeter}")
+print(f"Square area:  {square_area}")
+print("Let's find perimeter and area of rectangle!")
+Width = float(input("Length of width"))
+Length = float(input("Length:"))
+rectangle_perimeter = (Width * Length)*2
+rectange_area = Width * Length
+print(f"rectangle perimeter : {rectangle_perimeter}")
+print(f"rectangle_area: {rectange_area}")
+radius = float(input("Let's calculate perimeter and area of a circle! Radius of circle:"))
+circle_perimeter = 2 *pi * radius
+print(f"Circle perimeter: {circle_perimeter}")
+print("Let's find circle area!")
+circle_area = (pi*radius)*(pi*radius)
+print(f"Circle Area: {circle_area}")
+Quadratics = float(input("Let's find the solution of a quadratic equation!"))
+b = float(input("b:"))
+a = float(input("a:"))
+c = float(input("C:"))
 
+quadratic_equation = -b+(b-2*a*c) / 2*a
+print(f"Solution: {quadratic_equation}")
